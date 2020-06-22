@@ -1,3 +1,7 @@
 def square_array(array)
-  # your code here
+  counter = 0
+  while counter < array.length do
+    array[counter] = Integer.sqrt(array[counter])
+    counter += 0 
+  end
 end
