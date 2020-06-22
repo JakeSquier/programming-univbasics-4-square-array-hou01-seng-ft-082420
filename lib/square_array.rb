@@ -5,5 +5,5 @@ def square_array(array)
     arrSqrt[counter] = Integer.sqrt(array[counter])
     counter += 1
   end 
-  return array
+  return arrSqrt
 end 
